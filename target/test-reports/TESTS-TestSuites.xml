@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="yuris-macbook" id="0" name="UserIntegrationSpec" package="com.loopcommerce" tests="5" time="0.649" timestamp="2013-01-07T18:31:21">
+      <properties />
+
+      <testcase classname="com.loopcommerce.UserIntegrationSpec" name="Saving user" time="0.434" />
+
+      <testcase classname="com.loopcommerce.UserIntegrationSpec" name="Updating existing user" time="0.046" />
+
+      <testcase classname="com.loopcommerce.UserIntegrationSpec" name="Deleting an existing user removes it from database" time="0.062" />
+
+      <testcase classname="com.loopcommerce.UserIntegrationSpec" name="Saving a user with invalid properties causes an error" time="0.042" />
+
+      <testcase classname="com.loopcommerce.UserIntegrationSpec" name="Recovering from a failed save by fixing invalid properties" time="0.034" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[--Output from Saving user--
+--Output from Updating existing user--
+--Output from Deleting an existing user removes it from database--
+--Output from Saving a user with invalid properties causes an error--
+--Output from Recovering from a failed save by fixing invalid properties--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

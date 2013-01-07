@@ -1,0 +1,15 @@
+Testsuite: com.loopcommerce.UserIntegrationSpec
+Tests run: 5, Failures: 0, Errors: 0, Time elapsed: 0.649 sec
+------------- Standard Error -----------------
+--Output from Saving user--
+--Output from Updating existing user--
+--Output from Deleting an existing user removes it from database--
+--Output from Saving a user with invalid properties causes an error--
+--Output from Recovering from a failed save by fixing invalid properties--
+------------- ---------------- ---------------
+
+Testcase: Saving user took 0.434 sec
+Testcase: Updating existing user took 0.046 sec
+Testcase: Deleting an existing user removes it from database took 0.062 sec
+Testcase: Saving a user with invalid properties causes an error took 0.042 sec
+Testcase: Recovering from a failed save by fixing invalid properties took 0.034 sec
